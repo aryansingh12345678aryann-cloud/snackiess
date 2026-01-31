@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chips, Biscuits & Cold Drinks</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background-color: #ff6b35; color: white; text-align: center; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .snack { display: inline-block; width: 30%; margin: 10px; text-align: center; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+        button { background-color: #ff6b35; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; }
+        button:hover { background-color: #e55a2b; }
+        footer { text-align: center; padding: 10px; background-color: #333; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Chips, Biscuits & Cold Drinks!</h1>
+        <p>Your ultimate snack combo for any occasion.</p>
+    </header>
+    
+    <div class="container">
+        <div class="snack">
+            <img src="https://via.placeholder.com/300x200?text=Chips" alt="Chips">
+            <h2>Chips</h2>
+            <p>Crispy potato chips in various flavors like salt, cheese, and BBQ. Perfect for munching!</p>
+            <button onclick="alert('Enjoy your chips!')">Order Now</button>
+        </div>
+        
+        <div class="snack">
+            <img src="https://via.placeholder.com/300x200?text=Biscuits" alt="Biscuits">
+            <h2>Biscuits</h2>
+            <p>Delicious cookies – chocolate chip, oatmeal, or sugar-coated. A sweet treat to pair with anything.</p>
+            <button onclick="alert('Enjoy your biscuits!')">Order Now</button>
+        </div>
+        
+        <div class="snack">
+            <img src="https://via.placeholder.com/300x200?text=Cold+Drink" alt="Cold Drink">
+            <h2>Cold Drink</h2>
+            <p>Refreshing sodas, juices, or iced teas. Stay cool with every sip!</p>
+            <button onclick="alert('Enjoy your cold drink!')">Order Now</button>
+        </div>
+        
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Snacks Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
